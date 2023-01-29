@@ -17,3 +17,14 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.profile{
+    wid{th : 50
+    height :50
+}
+ul{
+    text-decoration: none;
+    display : flex
+    gap : 10px
+   
+
+}
