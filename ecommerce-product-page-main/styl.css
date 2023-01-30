@@ -128,7 +128,7 @@ li a{
     opacity: 0.3;
     border:3px solid hsl(26, 100%, 55%);
     background-clip: padding-box;
-    
+
 }
 
 .wordings{
@@ -249,4 +249,8 @@ li a{
     height: 15px;
     ;
     
+ }
+
+ .attribution{
+    font-size: xx-small;
  }
