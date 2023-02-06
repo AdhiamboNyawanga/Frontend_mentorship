@@ -5,7 +5,7 @@
 
   
    -->
-  <title>Frontend Mentor | E-commerce product page</title>
+  <!-- <title>Frontend Mentor | E-commerce product page</title> -->
 
  
     <link rel= "stylesheet" href="reset.css">
@@ -20,26 +20,37 @@
 
   <header>
       <nav>
-        <div class = 'logo_links'>
-          <p class= "product-name">sneakers</p>
-          <ul >
-              <li class="link1"><a href="">Collections</a></li>
-              <li class="link2"><a href="">Men</a></li>
-              <li class="link3"><a href="">Women</a></li>
-              <li class="link4"><a href="">About</a></li>
-              <li class="link5"><a href="">Contact</a></li>
-          </ul>
-        </div>
-        <div class = 'cart-profile'>
-          <img class ='cart' src = "images/icon-cart.svg" width="50" height= "30" alt="cart"> 
-          <img class ='profile' src = "images/image-avatar.png" width="60" height= "45"alt="profile">
-        </div>
+          <div class="sec1">
+            <ul>
+              <li class= "product-name">sneakers</li>
+            </ul>  
+          </div>
+          <div class="sec2-3">
+            <div class="sec2">       
+              <ul >
+                <li><a href="">Women</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Collections</a></li>
+                <li><a href="">Men</a></li>
+              </ul>
+            </div>
+          
+            <div class = 'cart-profile'>
+              <img class= "cart" src = "images/icon-cart.svg" alt="cart"> 
+              <img class= "profile"src = "images/image-avatar.png" alt="profile">
+            </div>
+          </div>
+          
       </nav>
   </header>
   
   <div class="product-info">
     <div class = "pictures">
-      <img class = 'main-image' src= "images/image-product-1.jpg" alt="sneaker">
+      <div class="main">
+        <img src= "images/image-product-1.jpg" alt="sneaker">
+      </div>
+      
       <div class = 'other-images' >
         <img class = 'image1' src="images/image-product-1.jpg" alt="sneaker">
         <img class = 'image2' src ="images/image-product-2.jpg" alt="sneaker">
@@ -50,27 +61,31 @@
     <div class = "wordings">
       <div class="description">
         <h6 class = "topic2" >SNEAKER COMPANY</h6>
-        <h2>Fall Limited Edition <br>Sneakers</h2>
+        <h1>Fall Limited Edition <br>Sneakers</h1>
         <p class = "content">These low-profile sneakers are your perfect casual wear <br>companion. Featuring a 
           durable rubber outer sole, they’ll <br>withstand everything the weather can offer.</p>
-        <div class="cat1">
-          <h4 class = "price">$125.00</h4>
-          <h4 class = "discount">50%</h4>
+        <div class="prices">
+          <div class="cat1">
+            <h4>$125.00</h4>
+            <p><del>$250.00</del></p>
+          </div>
+          <div class="percent">
+            <button>50%</button>
+          </div>
+            
+          </div>
         </div>
-        <h5><del>$250.00</del></h5>
-      </div>
+          
     
       <div class = "purchase_info">
         <div class="add_and_sub">
-          <img src = "images/icon-minus.svg" width="30" height= "30"> 
-          <!-- width="30" height= "24" -->
-          <h5><b>0</b></h5>
-          <img class = 'cart' src = "images/icon-plus.svg" width="30" height= "30">
-          <!-- width="30" height= "30" -->
+          <p class = "add">+</p>
+          <p>0</p>
+          <p class = "sub">-</p>
         </div>
         <div class="add-and-cart">
-          <img class = 'profile'src = "images/icon-cart.svg">
-          <p class = "add">Add to cart</p>
+          <img src = "images/icon-cart.svg">
+          <p>Add to cart</p>
         </div>
       </div>
 
