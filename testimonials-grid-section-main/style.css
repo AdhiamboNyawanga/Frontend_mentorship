@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+box-sizing: border-box;
+margin : 0;
+padding:0;
+html{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body*{
+    
+    height: 50vh;
+    display: flex;
+    font-size: 13px;
+    }
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    height: 60%;
+    background-color: hsl(210, 46%, 95%);
+    display:grid;
+    margin:auto;
+    padding : 20%;
+    gap:1.5rem;
+    
+    
+    grid:"a a b e" 
+         "c d d e" ; 
+    
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+
+}
+
+.client{
+    display: flex;
+    grid-template-rows: repeat(2, 1fr);
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.client1{
+    background-color: hsl(263, 55%, 52%);
+    grid-area: a;
+      }
+
+.client2{
+    background-color: hsl(217, 19%, 35%);
+    grid-area: b;
+}
+.client3{
+    background-color: hsl(0, 0%, 100%);
+    grid-area: c;
+}
+.client4{
+    background-color: hsl(219, 29%, 14%);
+    grid-area: d;
+}
+.client5{
+    background-color: hsl(0, 0%, 100%);
+    grid-area: e;
+}
