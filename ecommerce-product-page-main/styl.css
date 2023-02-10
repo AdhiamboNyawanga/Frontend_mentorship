@@ -6,6 +6,7 @@ html{
 body *{
     color: black; 
     display:flex;
+   
 
      
 }
@@ -91,6 +92,14 @@ li a{
     width: 30px;
     
 }
+
+hr{
+    opacity: .1;
+    width: 80%;
+    position: relative;
+    right: 20px;
+
+}
  
  
 
@@ -99,7 +108,7 @@ li a{
     flex-direction: row;
     justify-content: space-evenly;
     gap :0px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 0px;
     margin-bottom: 30px;
 } 
