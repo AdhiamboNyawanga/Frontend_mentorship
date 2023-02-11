@@ -6,6 +6,7 @@ html{
 body *{
     color: black; 
     display:flex;
+   
 
      
 }
@@ -17,46 +18,63 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 2px hsl(219, 9%, 45%);
 }
 nav{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
+    position:relative;
+    left: 50px;
 }
+
+.sec1{
+    display:flex;
+    margin-left: 40px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.product-name{
+    font-size: 30px;
+    font-weight: bolder;
+    
+ }
 
 .sec2-3{
     display: flex;
-    justify-content: center;
-    gap: 300px;
+    justify-content:space-around;
+    gap: 250px;
     align-items: center;
 }
-ul{ 
+.sec2{
     display: flex;
-    gap :20px;  
+    justify-content: space-around;
+    font-weight: lighter;
+}
+
+ul.one{ 
+    display: flex;
+    gap :30px;
+    flex-direction: row;
 }
 
 li{
     display : flex;
-   text-decoration: none;
+    text-decoration: none;
  }
 
- .product-name{
-    font-size: large;
-    font-weight: bolder;
-    
- }
 
 li a{
     text-decoration: none;
     color:hsl(220, 14%, 75%);
     }
 
-.cart-profile{
+.sec3{
     display:flex;
-    gap:30px; 
+    gap:20px; 
     align-items: center;
     margin-right: auto;
     align-content:space-around;
@@ -75,29 +93,23 @@ li a{
     
 }
 
-.sec1{
-    font-weight : bolder;
-    display: flex;
-    flex-direction: row;
-    }
+hr{
+    opacity: .1;
+    width: 80%;
+    position: relative;
+    right: 20px;
 
-.sec2{
-    display: flex;
-    justify-content: space-around;
-    font-weight: lighter;
 }
-
  
-   
-
+ 
 
 .product-info{
     display :flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap :5px;
-    margin-top: 20px;
-    margin-left: 50px;
+    justify-content: space-evenly;
+    gap :0px;
+    margin-top: 60px;
+    margin-left: 0px;
     margin-bottom: 30px;
 } 
 
@@ -134,7 +146,11 @@ li a{
 .wordings{
     display:flex;
     flex-direction: column;
-    justify-content: space-around;}
+    justify-content: space-around;
+    margin-left: 0px;
+    position:relative;
+    left: -100px;
+}
 
 .description{
     display:flex;
@@ -155,30 +171,37 @@ li a{
 .prices{
     display: flex;
     flex-direction: row;
-    align-items:baseline;
-    gap : 20px; */
-    max-width: 20px;
-    height: 80px;
-
+    gap : 20px; 
+    align-items:baseline; 
+    justify-content:left;
+    align-content: center;
+    position:relative;
+    left: -43px;
+    
 
 }
 .cat1 {
     display: flex;
     flex-direction:column;
-    gap : 10px;
-    align-items: baseline;
-    justify-content: space-around; 
+    justify-content: left;
     
-    
+    }
+ul.two{ 
+    display: flex;
+    flex-direction: column;
+    gap :0px;  
+    }
+
+.current_price{
+    font-weight: bolder;
+    font-size: x-large;
 }
-
- .cat1 p{
-    font-weight :bold; 
-    color:hsl(220, 14%, 75%);
-    height: 30px;
-    font-size: x-small;
- }
-
+.original_price{
+    font-weight: bold;
+    font-size: smaller;
+    opacity: .5;
+}
+ 
  button{
     display: flex;
     height: 20px;
@@ -253,4 +276,6 @@ li a{
 
  .attribution{
     font-size: xx-small;
+    position:relative;
+    left: 180px;
  }
