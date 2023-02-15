@@ -96,8 +96,7 @@ li a{
 hr{
     opacity: .1;
     width: 80%;
-    position: relative;
-    right: 20px;
+    height: 1px;
 
 }
  
