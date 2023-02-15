@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body*{
+    box-sizing: border-box;
+    background-color:hsl(0, 0%, 98%);
+    max-height: 60vh;
+    max-width: 60vh;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    
+    margin-bottom: 10%;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  line-height: 0.5px;
+  margin:0%;
+  padding: 0px;
+ 
+}
+
+.sec1{
+    font-size: 30px;
+    opacity: .5;
+    text-align: center;
+}
+.sec2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.sec3{
+    font-size: 15px;
+    opacity: .5;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.grid_area{
+    width:120vh;
+    height: 55vh;
+    
+
+    display: grid;
+    margin:auto;
+    gap: 1.5rem;
+    grid: ". a ."
+          "b a c"
+          "b d c"
+          ". d .";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.grid1{
+    line-height: 1rem;
+    grid-area: b;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    box-shadow: 0px 2px 2px 2px lightgray;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.grid2{
+    line-height: 1rem;
+    grid-area: a;
+     background-color: white;
+    border-radius: 5px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    box-shadow: 0px 2px 2px 2px lightgray;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.grid3{
+    line-height: 1rem;
+    grid-area: d;
+     background-color: white;
+    border-radius: 5px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    box-shadow: 0px 2px 2px 2px lightgray;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.grid4{
+    line-height: 1rem;
+    grid-area: c;
+     background-color: white;
+    border-radius: 5px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    box-shadow: 0px 2px 2px 2px lightgray;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.par{
+    align: left;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.image{
+    width: 18%;
+    height: 20%;
+    float:right;
+    position: fixed;
+}
+
+h3{
+    font-size: 18px;
+}
