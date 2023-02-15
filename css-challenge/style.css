@@ -23,5 +23,14 @@ html{
     color:orange
 
     }
+    .container1 >input[type='checkbox'] {
+        accent-color: green;     
+
+    }
+
+    .checkmark{
+        border-radius: 50%;
+    }
+   
    
     
