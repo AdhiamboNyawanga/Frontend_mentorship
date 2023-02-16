@@ -4,6 +4,114 @@ html{
     font-family: 'Montserrat', sans-serif;
 
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.division1{
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+    display:flex;
+    flex-direction: column;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 150px;
+    color:white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    margin-left: 25vh;
+    align-items:baseline;
+    gap: 10vh;
+}
+
+.links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25vh;
+    align-items: baseline;
+}
+
+ul{
+display: flex;
+justify-content:space-around;
+gap: 20px;
+flex-direction: row;
+color: white;
+
+}
+
+li{
+    display: flex;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: x-small;
+    font-weight:500;
+}
+
+.login-member{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5vh;
+    font-size: x-small;
+    font-weight: bold;
+}
+.b1{
+    font-size: x-small;
+    color: white;
+    background-color: dodgerblue;
+}
+
+button{
+    border:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .checked {
     color: blue;
